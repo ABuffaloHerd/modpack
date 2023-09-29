@@ -8,3 +8,6 @@
 /logs
 *.log
 *.gz
+
+usercache.json
+usernamecache.json
