@@ -7,6 +7,17 @@
 	id: "2116C4597F2223DE"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
-	title: "II - Create"
+	quests: [{
+		id: "077E937C895A33A1"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "6D8913D58152B832"
+			item: "create:andesite_casing"
+			type: "item"
+		}]
+		x: -2.0d
+		y: -0.5d
+	}]
+	title: "II - Create: Above and Beyond"
 }

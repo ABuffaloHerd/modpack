@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iii__mekanism"
+	group: "07056F838E4C5D6F"
+	icon: "tetra:basic_workbench"
+	id: "67A77B7DEC76E285"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "58C3EF4E2CA96C54"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "360AF6FE630DBACC"
+			item: "tetra:basic_workbench"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "III - Tetra: Tools of the Trade"
+}

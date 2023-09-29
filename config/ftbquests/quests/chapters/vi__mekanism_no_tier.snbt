@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vi__mekanism_no_tier"
+	group: "07056F838E4C5D6F"
+	id: "28E2E2791C7D369D"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1053E6043992F29B"
+			tasks: [{
+				id: "168CA91BC4A3D773"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6E5F35A6F5D2B650"
+			tasks: [{
+				id: "082528F221795585"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Baby's first assembly line"
+			x: -4.5d
+			y: 0.0d
+		}
+	]
+	title: "VII - Mekanism No Tier"
+}

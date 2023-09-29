@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "v__nether_access"
+	group: "07056F838E4C5D6F"
+	icon: "minecraft:netherrack"
+	id: "3283D22AEA4F8CDD"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "V - Nether Access"
+}

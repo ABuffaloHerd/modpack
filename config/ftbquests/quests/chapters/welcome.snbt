@@ -6,6 +6,25 @@
 	id: "2055E7271200E4DA"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		description: ["In this modpack you will be faced with choices. Choices that will impact your playthrough with irreperable consequences. Choices that are difficult to make. Choices with immense sacrifices and incomprehensible ramifications. This modpack will push the boundaries of sanity, friendships and all that you hold dear to your heart. Do not go gentle into that good night."]
+		icon: "minecraft:crafting_table"
+		id: "73DFF1D9D7B62C91"
+		rewards: [{
+			id: "1A70C2EE63287AAF"
+			item: "minecraft:dirt"
+			type: "item"
+		}]
+		size: 5.0d
+		tasks: [{
+			consume_items: false
+			id: "6200EFD2998D6C91"
+			item: "minecraft:crafting_table"
+			type: "item"
+		}]
+		title: "Welcome!"
+		x: -3.5d
+		y: 0.5d
+	}]
 	title: "Welcome!"
 }

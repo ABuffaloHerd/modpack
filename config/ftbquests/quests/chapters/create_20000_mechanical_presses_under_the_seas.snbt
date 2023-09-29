@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_20000_mechanical_presses_under_the_seas"
+	group: "785C98FA1B1B6BDE"
+	id: "0DBC630EFD2339F7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create: 20,000 Mechanical Presses Under the Seas"
+}

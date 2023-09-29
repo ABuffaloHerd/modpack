@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rs_vs_ae2"
+	group: "22490D7DF352CA60"
+	icon: "ae2:silicon"
+	id: "6BAE38A7E2EE6660"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "RS vs AE2: Part I"
+}

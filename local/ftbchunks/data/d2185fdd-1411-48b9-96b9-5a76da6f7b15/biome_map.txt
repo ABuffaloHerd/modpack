@@ -1,0 +1,14 @@
+#368 byg:allium_fields
+#556 minecraft:beach
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#78A terralith:gravel_beach
+#79C byg:maple_taiga
+#2D6 minecraft:meadow
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#634 byg:prairie
+#5FF minecraft:river
+#51A minecraft:stony_shore
+#774 minecraft:sunflower_plains
+#355 byg:temperate_grove

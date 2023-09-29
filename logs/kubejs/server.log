@@ -1,0 +1,10 @@
+[12:12:53] [INIT] KubeJS 1902.6.2-build.3; MC 1902 forge
+[12:12:53] [INIT] Loaded plugins:
+[12:12:53] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[12:12:53] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[12:12:54] [INFO] server_scripts:example.js:5: Hello, World! (Loaded server scripts)
+[12:12:54] [INFO] Loaded script server_scripts:example.js in 0.0 s
+[12:12:54] [INFO] Loaded 1/1 KubeJS server scripts in 0.002 s
+[12:12:54] [INFO] Scripts loaded
+[12:12:54] [WARN] Due to the way Minecraft resource loading works, KubeJS' server.log may not contain everything that happened in your server scripts on initial world creation.
+[12:12:54] [WARN] You can still see the full log (including past reloads) in your latest.log file.

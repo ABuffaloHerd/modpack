@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tetra__tricks_of_the_trade"
+	group: "22490D7DF352CA60"
+	icon: "art_of_forging:forged_steel_ingot"
+	id: "48B55586AA0D850E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tetra - Tricks of the Trade"
+}

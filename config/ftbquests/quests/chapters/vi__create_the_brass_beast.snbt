@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vi__create_the_brass_beast"
+	group: "07056F838E4C5D6F"
+	icon: "create:brass_casing"
+	id: "73D9FC99322BE973"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "15A4C9274AC3BBA9"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "66A1148372383F5A"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5A1D9680BDB0EBFF"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "02F68771BE392374"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	title: "VI - Create: The Brass Beast"
+}
