@@ -1,0 +1,64 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "i__survial"
+	group: "07056F838E4C5D6F"
+	icon: "minecraft:oak_sapling"
+	id: "03459B13624ABB8F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "20BBD1685ACB3E95"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "13E18964FE366D56"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -9.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A6194294F7B46BD"]
+			id: "75A71970C9D66280"
+			tasks: [{
+				id: "1FF030FCB95F9900"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75A71970C9D66280"]
+			id: "378515D6FC65B578"
+			tasks: [{
+				id: "41527FCDE353CCF1"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20BBD1685ACB3E95"]
+			id: "0A6194294F7B46BD"
+			tasks: [{
+				id: "46EB397F720B0855"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+	]
+	title: "I - Survial"
+}

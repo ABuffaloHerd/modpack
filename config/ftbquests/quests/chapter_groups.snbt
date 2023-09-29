@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "07056F838E4C5D6F", title: "Stage I - Early Game" }
+		{ id: "22490D7DF352CA60", title: "Stage II - Mid Game" }
+		{ id: "785C98FA1B1B6BDE", title: "Stage III - Late Game" }
+		{ id: "30469C487771BB86", title: "Stage IV - End Game" }
+		{ id: "51DCB44F3D1C46EA", title: "Stage V - Creative" }
+	]
+}
