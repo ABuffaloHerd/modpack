@@ -5,3 +5,6 @@
 /saves
 /resourcepacks
 /server-resource-packs
+/logs
+*.log
+*.gz
