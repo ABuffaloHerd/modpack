@@ -6,6 +6,16 @@
 	id: "290B91187F0F8CAE"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "4997CE28FAEA76D2"
+		tasks: [{
+			id: "5B58B4B12D7EBF61"
+			item: "minecraft:skeleton_skull"
+			type: "item"
+		}]
+		title: "kill yourself"
+		x: 0.0d
+		y: -0.5d
+	}]
 	title: "Tips and Tricks"
 }

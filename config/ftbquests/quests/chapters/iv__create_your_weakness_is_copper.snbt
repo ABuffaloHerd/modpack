@@ -7,18 +7,30 @@
 	id: "7C63A95956AE982B"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		id: "29468199381C85EC"
-		shape: "gear"
-		size: 2.0d
-		tasks: [{
-			id: "713895168C6B6B07"
-			item: "create:copper_casing"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "29468199381C85EC"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "713895168C6B6B07"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7E46B8B556CFDD23"
+			tasks: [{
+				id: "7F820C59FA7B2D0D"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
 	subtitle: ["You're kidding right?"]
 	title: "IV - Create: Your weakness is copper??"
 }

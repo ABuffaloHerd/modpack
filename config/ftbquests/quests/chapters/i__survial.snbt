@@ -60,5 +60,6 @@
 			y: -3.0d
 		}
 	]
-	title: "I - Survial of the fittest"
+	subtitle: ["Yes, that's a typo but it's blake's typo,"]
+	title: "Survial of the fittest"
 }
