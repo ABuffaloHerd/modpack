@@ -1,5 +1,8 @@
 *
 
-!/config
-!/defualtconfigs
-!/kubejs
+!/config/
+!/config/*
+!/defaultconfigs/
+!/defaultconfigs/*
+!/kubejs/
+!/kubejs/*
