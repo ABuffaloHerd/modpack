@@ -7,6 +7,37 @@
 	id: "48B55586AA0D850E"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "13E4DA83C7FD2DFB"
+			tasks: [{
+				id: "6CF0C543C4E79E71"
+				item: "art_of_forging:forged_steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "71819AD8A408323C"
+			tasks: [{
+				id: "060241C80C8AFCFA"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "12BA63DD112AF757"
+			tasks: [{
+				id: "64FE767762BE4B19"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+	]
 	title: "Tetra - Tricks of the Trade"
 }

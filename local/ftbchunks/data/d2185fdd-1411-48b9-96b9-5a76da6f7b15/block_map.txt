@@ -1,3 +1,5 @@
+#19603E mekanism:advanced_mechanical_pipe
+#2FB94D mekanism:advanced_pressurized_tube
 #F3FE1D byg:allium_flower_bush
 #FA75A8 minecraft:andesite
 #D16C77 minecraft:andesite_slab
@@ -30,6 +32,8 @@
 #6E76AF minecraft:copper_ore
 #CC07F6 minecraft:cornflower
 #306005 minecraft:cracked_stone_bricks
+#6B35EC mekanism:creative_fluid_tank
+#73CA69 create:creative_motor
 #4BF61E create:crimsite
 #587E64 byg:dacite
 #C0C605 byg:dacite_cobblestone
@@ -49,6 +53,8 @@
 #2564E6 minecraft:deepslate_tiles
 #818D47 mekanism:deepslate_tin_ore
 #24F39D create:deepslate_zinc_ore
+#5E5E58 create:deployer
+#FF48B8 create:depot
 #BED665 minecraft:diorite
 #80497A minecraft:dirt
 #4FA7D0 minecraft:dirt_path
@@ -114,6 +120,7 @@
 #872D76 minecraft:snow
 #12E6C4 minecraft:snow_block
 #74E2CA byg:soapstone
+#D7A655 create:spout
 #5E33FE minecraft:spruce_door
 #FAE367 minecraft:spruce_fence
 #13F5AC minecraft:spruce_leaves

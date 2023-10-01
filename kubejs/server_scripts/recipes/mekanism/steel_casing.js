@@ -10,6 +10,6 @@ ServerEvents.recipes((event) => {
     "mekanism:block_steel",
     [
         event.recipes.createDeploying(inter, [inter, "kubejs:kinetic_mechanism"]),
-        event.recipes.createDeploying(inter, [inter, "mekanism:ingot_osmium"]),
+        event.recipes.createDeploying(inter, [inter, "mekanism:ingot_osmium"]), // TODO: Something from immersive engineering
     ]).transitionalItem(inter).loops(1);
 });
