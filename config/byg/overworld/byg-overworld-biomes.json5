@@ -30,9 +30,9 @@ to make editing this file much easier.
 	   Regions may be inlined or may call a file from "this_file_parent_directory/regions"
 	*/
 	"regions": [
-		"region_1",
-		"region_2",
-		"region_3",
-		"rare_region_1"
+		// "region_1",
+		// "region_2",
+		// "region_3",
+		// "rare_region_1"
 	]
 }

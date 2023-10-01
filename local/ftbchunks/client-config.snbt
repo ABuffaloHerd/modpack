@@ -145,8 +145,8 @@
 		compass: true
 		
 		# Enable minimap
-		# Default: true
-		enabled: true
+		# Default: false
+		enabled: false
 		
 		# Show entities on minimap
 		# Default: true

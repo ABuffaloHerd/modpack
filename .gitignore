@@ -1,15 +1,5 @@
-*.jar
-*.disabled
+*
 
-/mods
-/saves
-/resourcepacks
-/server-resource-packs
-/logs
-*.log
-*.gz
-
-usercache.json
-usernamecache.json
-
-rhino.local.properties
+!/config
+!/defualtconfigs
+!/kubejs
