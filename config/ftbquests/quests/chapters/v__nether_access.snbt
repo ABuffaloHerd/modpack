@@ -7,6 +7,42 @@
 	id: "3283D22AEA4F8CDD"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
-	title: "V - Nether Access"
+	quests: [
+		{
+			id: "5FDF1488C0638224"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "7B6BB79BCE4D798C"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			title: "You must be really good at the game!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "30C43C52A43FB218"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "4DA405F10D6C5C92"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "48DCD61D30D8DC41"
+			tasks: [{
+				id: "021DB3D58BBEEC7C"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+	]
+	title: "Nether Access"
 }

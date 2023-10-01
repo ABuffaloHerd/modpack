@@ -3,11 +3,17 @@
 	default_quest_shape: ""
 	filename: "vi__mekanism_no_tier"
 	group: "07056F838E4C5D6F"
+	icon: "mekanism:steel_casing"
 	id: "28E2E2791C7D369D"
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"14813921F40F212F"
+				"258854F09DFF5B0D"
+				"2EE601C64FB712CA"
+			]
 			id: "1053E6043992F29B"
 			tasks: [{
 				id: "168CA91BC4A3D773"
@@ -18,16 +24,208 @@
 			y: 0.0d
 		}
 		{
-			id: "6E5F35A6F5D2B650"
+			dependencies: ["2EB07080E5A7CB51"]
+			id: "3F185C84594B0BD0"
 			tasks: [{
-				id: "082528F221795585"
-				item: "create:deployer"
+				id: "5C39CAA38AF04EA8"
+				item: "mekanism:enrichment_chamber"
 				type: "item"
 			}]
-			title: "Baby's first assembly line"
-			x: -4.5d
+			title: "No more sandpaper"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "2EE601C64FB712CA"
+			tasks: [{
+				id: "3FF7FE9C3DB8EAC5"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"05298556687E292E"
+				"0974B1A50B9DDA32"
+				"1314E5E396535FF0"
+			]
+			id: "14813921F40F212F"
+			tasks: [{
+				id: "6AE8CA0F312212D5"
+				item: "kubejs:kinetic_mechanism"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0611EE464C9849CE"]
+			id: "258854F09DFF5B0D"
+			tasks: [{
+				id: "76BB8B0AC855116E"
+				item: "mekanism:block_steel"
+				type: "item"
+			}]
+			x: -3.0d
 			y: 0.0d
 		}
+		{
+			id: "05298556687E292E"
+			tasks: [{
+				id: "6DD0620B172F1232"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			id: "0974B1A50B9DDA32"
+			tasks: [{
+				id: "47F6703392099595"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			id: "1314E5E396535FF0"
+			tasks: [{
+				id: "415C26EBBF946705"
+				item: "create:brass_nugget"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "0611EE464C9849CE"
+			tasks: [{
+				id: "77EB52B099334C00"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1053E6043992F29B"]
+			id: "2EB07080E5A7CB51"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "13CA5C7807F1799E"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EB07080E5A7CB51"]
+			id: "6746806F1BFAAA49"
+			tasks: [{
+				id: "3656BC2EB4A48CC3"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6746806F1BFAAA49"]
+			id: "4D26A8531E5CA74A"
+			tasks: [{
+				id: "7C651DFF911F00E3"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6746806F1BFAAA49"
+				"568A98FCD918EF39"
+			]
+			id: "3FFC38ECB86CAD13"
+			tasks: [{
+				id: "6C0A758582364814"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"568A98FCD918EF39"
+				"6260DE52B0D7990A"
+			]
+			id: "27AF51C891C511F2"
+			tasks: [{
+				id: "4789B533BC4AF038"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6260DE52B0D7990A"]
+			id: "751AD924B93385D5"
+			tasks: [{
+				id: "0108EF053A163928"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6746806F1BFAAA49"
+				"5668165E4597DEED"
+			]
+			id: "568A98FCD918EF39"
+			tasks: [{
+				id: "14A43459A12EBECD"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"568A98FCD918EF39"
+				"5668165E4597DEED"
+			]
+			id: "6260DE52B0D7990A"
+			tasks: [{
+				id: "3D95CCC274779B17"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F185C84594B0BD0"]
+			id: "5668165E4597DEED"
+			subtitle: "You HAVE to mass produce this now."
+			tasks: [{
+				id: "1A0D02840869B5D7"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			title: "There's no excuse"
+			x: 7.0d
+			y: 2.5d
+		}
 	]
-	title: "VII - Mekanism No Tier"
+	title: "Mekanism No Tier"
 }

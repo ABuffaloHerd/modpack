@@ -7,17 +7,43 @@
 	id: "67A77B7DEC76E285"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "58C3EF4E2CA96C54"
-		shape: "gear"
-		size: 2.0d
-		tasks: [{
-			id: "360AF6FE630DBACC"
-			item: "tetra:basic_workbench"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
-	title: "III - Tetra: Tools of the Trade"
+	quests: [
+		{
+			dependencies: ["6C096932E64832C6"]
+			id: "58C3EF4E2CA96C54"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "360AF6FE630DBACC"
+				item: "tetra:basic_workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6C096932E64832C6"
+			tasks: [{
+				id: "4A41E562267D3C98"
+				item: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "4b08e05a-4714-4125-9f23-bc081dab72d1"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "Tetra: Tools of the Trade"
 }

@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["2BD2776475A72012"]
 			id: "15A4C9274AC3BBA9"
 			shape: "gear"
 			size: 2.0d
@@ -18,7 +19,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
 			id: "5A1D9680BDB0EBFF"
@@ -29,9 +30,122 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5A1D9680BDB0EBFF"
+				"15A4C9274AC3BBA9"
+			]
+			id: "18EE5FAB9C33D629"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "39F9EF600635A1D2"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "You need 20,000 of these."
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"44E4003E5B3FF030"
+				"06180DCEDEBFFEC3"
+			]
+			id: "2BD2776475A72012"
+			tasks: [{
+				id: "11A5851C6954210F"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -1.5d
 			y: 0.0d
 		}
+		{
+			id: "06180DCEDEBFFEC3"
+			tasks: [{
+				id: "051F0B9BA08489A8"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "44E4003E5B3FF030"
+			tasks: [{
+				id: "7AB8287630F78C1B"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "04C08A0D88BA7787"
+			tasks: [{
+				id: "7BA8E8C85C6A4ADF"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			id: "47B46D5AA7C1164D"
+			tasks: [{
+				id: "17F9004D5D9D263A"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2BD2776475A72012"]
+			id: "7A512C8A9AE8D237"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2C950A8D3251D32E"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A512C8A9AE8D237"]
+			id: "5BF3D3235E127D3B"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "77353AAF59C3AF9C"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5BF3D3235E127D3B"
+				"18EE5FAB9C33D629"
+			]
+			id: "753CE86AB43C7395"
+			shape: "gear"
+			size: 4.0d
+			tasks: [{
+				id: "2AB42B5156FE4ABC"
+				item: "kubejs:kinetic_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
 	]
-	title: "VI - Create: The Brass Beast"
+	title: "Create: The Brass Beast"
 }

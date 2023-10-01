@@ -7,17 +7,88 @@
 	id: "2116C4597F2223DE"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "077E937C895A33A1"
-		shape: "gear"
-		size: 2.0d
-		tasks: [{
-			id: "6D8913D58152B832"
-			item: "create:andesite_casing"
-			type: "item"
-		}]
-		x: -2.0d
-		y: -0.5d
-	}]
-	title: "II - Create: Above and Beyond"
+	quests: [
+		{
+			dependencies: ["1B96B3702E899414"]
+			hide_dependent_lines: true
+			id: "077E937C895A33A1"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6D8913D58152B832"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "7356C15B9EB7300F"
+			tasks: [{
+				id: "5DF6CBA09977D9D0"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7356C15B9EB7300F"
+				"5756570E424E3049"
+			]
+			id: "1B96B3702E899414"
+			tasks: [{
+				id: "0140710A1E340A65"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "5756570E424E3049"
+			tasks: [{
+				id: "1880E5345C66D9C1"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B96B3702E899414"]
+			id: "70169275D2C330B2"
+			tasks: [{
+				id: "22A65E3A8C876BF7"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["70169275D2C330B2"]
+			id: "33604EFDD50FE543"
+			tasks: [{
+				id: "2E34EB06A90E6ACF"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["70169275D2C330B2"]
+			id: "0FE5CB5F2AD542C7"
+			tasks: [{
+				id: "28E405E7364004B7"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+	]
+	title: "Create: Above and Beyond"
 }
